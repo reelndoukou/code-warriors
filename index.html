@@ -36,17 +36,17 @@
     </section>
 
     <section id="contacts">
-      <h2>Nous contacter</h2>
+      <h2 class="contacts__title">Entrer en contact</h2>
       <div class="contacts-wrapper">
         <!-- Left -->
         <div class="contacts-left">
           <div class="contacts-left-wrapper">
-            <div class="contacts-left-item">
+            <article class="contacts-left-item">
               <h4 class="contacts-left-item__title">
-                Notre équipe amicale est là pour vous aider.
-                exemple@ecommerce.com
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contacts-left-item__logo">
+                Email
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="contacts-left-item__logo">
                   <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7" />
                   <rect x="2" y="4" width="20" height="16" rx="2" />
                 </svg>
@@ -54,16 +54,16 @@
               <p class="contacts-left-item__description">
                 Notre équipe amicale est là pour vous aider.
               </p>
-              <span class="contacts-left-item__meta">
-                exemple@ecommerce.com
-              </span>
-            </div>
+              <address class="contacts-left-item__meta">
+                <a href="mailto:exemple@ecommerce.com">exemple@ecommerce.com</a>
+              </address>
+            </article>
             <!--  -->
-            <div class="contacts-left-item">
+            <article class="contacts-left-item">
               <h4 class="contacts-left-item__title">
                 Bureaux
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                   class="contacts-left-item__logo">
                   <path
                     d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
@@ -73,16 +73,16 @@
               <p class="contacts-left-item__description">
                 Venez dire bonjour à notre siège social
               </p>
-              <span class="contacts-left-item__meta">
-                Centre ville, république du congo
-              </span>
-            </div>
+              <address class="contacts-left-item__meta">
+                Centre ville, République du Congo
+              </address>
+            </article>
             <!--  -->
-            <div class="contacts-left-item">
+            <article class="contacts-left-item">
               <h4 class="contacts-left-item__title">
                 Téléphone
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                   class="contacts-left-item__logo">
                   <path
                     d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384" />
@@ -91,27 +91,44 @@
               <p class="contacts-left-item__description">
                 Du lundi au vendredi de 8h à 5h
               </p>
-              <span class="contacts-left-item__meta">
-                +242 06 002 02 01
-              </span>
-            </div>
+              <address class="contacts-left-item__meta">
+                <a href="tel:+242060020201">+242 06 002 02 01</a>
+              </address>
+            </article>
           </div>
         </div>
         <!-- Right -->
         <div class="contacts-right">
-          <h2 class="contacts-right__title">Entrez en compte avec nous</h2>
+          <h3 class="contacts-right__title">Parlez nous de votre inquiétude</h3>
           <p class="contacts-right__description">
-            Vous pouvez nous joindre à tout moment via exemple@ecommerce.com
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad laudantium repellendus earum similique optio
+            provident deserunt ex voluptatum dolores soluta, odio alias, corporis eum enim in expedita quisquam
+            perspiciatis dolor.
           </p>
           <form>
-            <fieldset class="form-group">
+            <fieldset class="form-wrapper">
               <legend aria-hidden="true">
                 Vous pouvez nous joindre à tout moment via exemple@ecommerce.com
               </legend>
-              <input class="form-item" type="text" placeholder="votre nom">
-              <input class="form-item" type="email" placeholder="votre@email.com">
-              <input class="form-item" type="number" placeholder="votre numero de téléphone">
-              <textarea class="form-item" name="message" id="message" placeholder=""></textarea>
+              <div class="form-group">
+                <div class="form-field">
+                  <label for="name">Nom</label>
+                  <input class="form-item" name="name" type="text" placeholder="votre nom">
+                </div>
+                <div class="form-field">
+                  <label for="email">Email</label>
+                  <input name="email" class="form-item" type="email" placeholder="votre@email.com">
+                </div>
+                <div class="form-field">
+                  <label for="tel">Téléphone</label>
+                  <input class="form-item" name="tel" type="tel" placeholder="votre numero de téléphone">
+                </div>
+                <div class="form-field">
+                  <label for="message">Message</label>
+                  <textarea class="form-item" name="message" id="message" placeholder="votre message"
+                    rows="4"></textarea>
+                </div>
+              </div>
               <button class="form-button" type="submit" aria-label="soumettre">
                 soumettre
               </button>
