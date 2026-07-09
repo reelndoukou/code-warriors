@@ -6,6 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Code warriors</title>
   <link rel="stylesheet" href="style.css">
+   <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+   />
 </head>
 
 <body>
@@ -113,20 +117,20 @@
               <div class="form-group">
                 <div class="form-field">
                   <label for="name">Nom</label>
-                  <input class="form-item" name="name" type="text" placeholder="votre nom">
+                  <input class="form-item" id="name" name="name" type="text" placeholder="votre nom">
                 </div>
                 <div class="form-field">
                   <label for="email">Email</label>
-                  <input name="email" class="form-item" type="email" placeholder="votre@email.com">
+                  <input name="email" id="email" class="form-item" type="email" placeholder="votre@email.com">
                 </div>
                 <div class="form-field">
                   <label for="tel">Téléphone</label>
-                  <input class="form-item" name="tel" type="tel" placeholder="votre numero de téléphone">
+                  <input class="form-item" id="tel" name="tel" type="tel" placeholder="votre numero de téléphone">
                 </div>
                 <div class="form-field">
                   <label for="message">Message</label>
-                  <textarea class="form-item" name="message" id="message" placeholder="votre message"
-                    rows="4"></textarea>
+                  <textarea class="form-item" id n="message" name="message" id="message" placeholder="votre message"
+                    rows="4" ></textarea>
                 </div>
               </div>
               <button class="form-button" type="submit" aria-label="soumettre">
@@ -139,9 +143,30 @@
     </section>
   </main>
 
-  <footer>
-    <!-- met ton code ici -->
-  </footer>
+<!-- met ton code ici -->
+ <footer>
+      <div class="footer-col">
+        <p>Service client</p>
+        <ul>
+          <li><a href="#">Boutique & info</a></li>
+          <li><a href="#">Retours</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <p>Suivez nous</p>
+        <p>&copy; 2026 E-pad. Touts droits reservés.</p>
+      </div>
+
+      <!--icone-->
+      <div class="footer-col">
+        <div class="icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+</footer>
 
 </body>
 
