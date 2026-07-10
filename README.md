@@ -5,7 +5,7 @@ thème du projet: ce projet est un site vitrine d'une boutique en ligne de vente
 NDOUKOU MAMBOU Don Réél(Admin repo, chargé de la section accueil) 
 NSANGOU DIASSIVI Djenna(Lead, chargéé du footer)
 KONGO Salem(chargé de la section produit)
-OWALA Brichelvie(chargé de la section catalogue)
+OWALA Brichelvie Jeannelle (chargé de la section catalogue)
 MBOUSSA Emmanuelito(charger de la section contact)
 
 lien live:
