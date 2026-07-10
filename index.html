@@ -7,7 +7,6 @@
   <title>Code warriors</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-  <link rel="stylesheet" href="carte-produit.css" />
 </head>
 
 <body>
@@ -35,27 +34,49 @@
       <div class="hero-div">
         <h2 class="hero-h2">Bienvenue sur E-pad</h2>
         <p class="hero-p">Votre boutique de vente en ligne des Iphones à bon prix.</p>
-        <a class="hero-btn" href="articles">Acheter</a>
-        <a class="hero-btn1" href="contacts">Contact</a>
+        <a class="hero-btn" href="#articles">Acheter</a>
+        <a class="hero-btn1" href="#contacts">Contact</a>
       </div>
     </section>
 
+    <section id="articles" class="conteneur_carte">
+  <article class="carte">
+    <h3>iPad</h3>
+    <a href=""><img src="image/image2.jpeg" alt="Image iPad"></a>
+    <p>prix:350.000</p>
+    <button>Acheter</button>
+  </article>
+
+  <article class="carte">
+    <h3>iPhone 12 prox max</h3>
+    <a href=""><img src="image/image4.jpeg" alt="Image iPhone 12"></a>
+    <p>prix:850.000</p>
+    <button>Acheter</button>
+  </article>
+
+  <article class="carte">
+    <h3>iPhone 17</h3>
+    <img src="image/image3.jpeg" alt="Image iPhone 17">
+    <p>prix:850.000</p>
+    <button>Acheter</button>
+  </article>
+</section>
     <section class="card-product">
       <div class="product">
-        <img src="image/boost.jpg" alt="" />
+        <img src="image/boost.jpg" alt="Boostez votre productivité" />
         <div class="product-content">
-          <h2>Boost your productivity</h2>
-          <p>Essential accessoires for work & play</p>
-          <button class="btn-product">Shop now</button>
+          <h2>Boostez votre productivité</h2>
+          <p>Accessoires essentiels pour le travail et les loisirs</p>
+          <button class="btn-product">Voir maintenant</button>
         </div>
       </div>
 
       <!-----Nouvel arrivage---->
       <div class="product">
-        <img src="image/new-arrivs.jpg" alt="" />
+        <img src="image/new-arrivs.jpg" alt="Nouveautés" />
         <div class="product-content">
-          <h2>New Arrivals</h2>
-          <button class="btn-product">Shop now</button>
+          <h2>Nouveautés</h2>
+          <button class="btn-product">Voir maintenant</button>
         </div>
       </div>
 
@@ -63,12 +84,12 @@
       <div class="product">
         <img
           src="https://www.gizmogo.com/blog/wp-content/uploads/2024/03/14-pro-max-colors.jpg"
-          alt=""
+          alt="Meilleures ventes"
         />
 
         <div class="product-content">
-          <h2>Best sellers</h2>
-          <button class="btn-product">Shop now</button>
+          <h2>Meilleures ventes</h2>
+          <button class="btn-product">Voir maintenant</button>
         </div>
       </div>
     </section>
@@ -87,7 +108,7 @@
           <div class="contacts-left-wrapper">
             <article class="contacts-left-item">
               <h4 class="contacts-left-item__title">
-                Email
+                Courriel
                 <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
                   stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                   class="contacts-left-item__logo">
@@ -159,8 +180,8 @@
                   <input class="form-item" id="name" name="name" type="text" placeholder="votre nom">
                 </div>
                 <div class="form-field">
-                  <label for="email">Email</label>
-                  <input name="email" id="email" class="form-item" type="email" placeholder="votre@email.com">
+                  <label for="email">Courriel</label>
+                  <input name="email" id="email" class="form-item" type="email" placeholder="votre@courriel.com">
                 </div>
                 <div class="form-field">
                   <label for="tel">Téléphone</label>
